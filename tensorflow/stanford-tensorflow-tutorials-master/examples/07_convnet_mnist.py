@@ -1,10 +1,3 @@
-""" Using convolutional net on MNIST dataset of handwritten digit
-(http://yann.lecun.com/exdb/mnist/)
-Author: Chip Huyen
-Prepared for the class CS 20SI: "TensorFlow for Deep Learning Research"
-cs20si.stanford.edu
-"""
-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -15,7 +8,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import time 
 
 import tensorflow as tf
-import tf.contrib.layers as layers
+import tensorflow.contrib.layers as layers
 from tensorflow.examples.tutorials.mnist import input_data
 
 import utils
